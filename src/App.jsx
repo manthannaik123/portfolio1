@@ -2,11 +2,11 @@ import React, { Suspense, lazy } from "react";
 import Navbar from "./Components/Navbar";
 import "./App.css";
 
-const About = lazy(() => import("./components/About"));
-const Projects = lazy(() => import("./components/Projects"));
-const Skills = lazy(() => import("./components/Skills"));
-const Resume = lazy(() => import("./components/Resume"));
-const Contact = lazy(() => import("./components/Contact"));
+const About = lazy(() => import("./Components/About"));
+const Projects = lazy(() => import("./Components/Projects"));
+const Skills = lazy(() => import("./Components/Skills"));
+const Resume = lazy(() => import("./Components/Resume"));
+const Contact = lazy(() => import("./Components/Contact"));
 
 function App() {
   return (
